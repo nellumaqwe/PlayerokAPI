@@ -22,6 +22,7 @@ setup(
     url="https://github.com/alleexxeeyy/PlayerokAPI",
     packages=find_packages(),
     install_requires=req(),
+    include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3.12",
         "License :: OSI Approved :: MIT License",
